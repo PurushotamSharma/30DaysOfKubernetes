@@ -1,31 +1,34 @@
-# Day 6: Kubernetes Jobs
+# Day 6: Deploy Your First Application
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 6 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, we'll explore Kubernetes Jobs for batch task management.
+Welcome to Day 6 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, it's time to put your knowledge into practice by deploying your first application on Kubernetes.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Kubernetes Jobs**: Understand the concept of Kubernetes Jobs for running batch tasks in a cluster.
+- **Application Deployment**: Gain hands-on experience in deploying applications on a Kubernetes cluster.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Kubernetes Jobs
-- Dive into the [Kubernetes Jobs documentation](https://kubernetes.io/docs/concepts/workloads/controllers/job/) to grasp the concept and usage of Jobs.
-- Learn how to create and manage Jobs in a Kubernetes cluster.
+### Task 1: Choose an Application
+- Select a simple application or service that you want to deploy on Kubernetes. It could be a web app, a database, or any other containerized application.
 
-### Task 2: Running Batch Tasks
-- Experiment with running batch tasks using Kubernetes Jobs in your local cluster.
-- Observe how Jobs ensure the successful completion of tasks.
+### Task 2: Create Deployment YAML
+- Write a Kubernetes Deployment YAML file to define how your application should be deployed. Specify the container image, ports, and any necessary environment variables.
 
-### Task 3: Suggested Project
-- Create a simple batch task using Kubernetes Jobs. You can simulate tasks like data processing or batch computations.
+### Task 3: Deploy Your Application
+- Use `kubectl` to deploy your application to your Kubernetes cluster. Observe the deployment process and ensure it runs successfully.
+
+### Task 4: Suggested Project
+- Create a basic web application (e.g., a Hello World web server) and deploy it on Kubernetes. You can later build upon this project for more complex applications.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation - Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/): Detailed information on Kubernetes Jobs.
-- [Kubernetes Job, Init Container and Pod lifecycle in Hindi](https://youtu.be/BqHAoaXbz1A?si=Fd-mU-jNzaM2Fb7G)
+- [Kubernetes Official Documentation - Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/): Detailed information on Kubernetes Deployments.
+- [Deploy Application on Kubernetes in English](https://youtu.be/-rDT9m1RKSA?si=ukRYcggSpOdyIGTV)
 
-Kubernetes Jobs are essential for managing batch workloads efficiently. Tomorrow, we'll explore the role of Init Containers in Kubernetes.
+Deploying your first application is an exciting step in your Kubernetes journey. Tomorrow, we'll explore Kubernetes Jobs for batch task management.
+
+[← Previous Day](../Day05/README.md) | [Next Day →](../Day07/README.md)

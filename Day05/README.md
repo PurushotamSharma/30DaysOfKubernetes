@@ -31,5 +31,6 @@ By the end of today, you will:
 - [Kubernetes Configfile](https://www.youtube.com/watch?v=Q74gSxeO4cI&ab_channel=VivekSingh)
 - [Kubernetes YML](https://youtu.be/qmDzcu5uY1I?si=kOxTRSj-YADGfPrI)
 
-Understanding kubeconfig files and YAML for deployments is fundamental for managing Kubernetes applications. Tomorrow, we'll explore Kubernetes Jobs for batch task management.
+Understanding kubeconfig files and YAML for deployments is fundamental for managing Kubernetes applications. Tomorrow, we'll deploy our first application on Kubernetes.
 
+[← Previous Day](../Day04/README.md) | [Next Day →](../Day06/README.md)
