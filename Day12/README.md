@@ -1,35 +1,37 @@
-# Day 12: Resource Quotas and Namespaces
+# Day 12: Advanced Kubernetes Networking
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 12 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll delve into Kubernetes namespaces and learn how to implement resource quotas for better cluster management.
+Welcome to Day 12 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, we'll delve into advanced Kubernetes networking concepts and solutions, including Container Network Interface (CNI) and Calico.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Kubernetes Namespaces**: Understand what Kubernetes namespaces are and how they provide logical isolation within a cluster.
-- **ResourceQuota**: Learn how to use ResourceQuota to control and limit resource consumption in namespaces.
+- **CNI and Calico**: Understand advanced Kubernetes networking concepts.
+- **Use Cases**: Explore real-world use cases for advanced networking solutions.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Kubernetes Namespaces
-- Dive into the [Kubernetes Namespaces documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) to understand the concept and importance of namespaces.
-- Create multiple namespaces in your cluster and experiment with deploying resources to different namespaces.
+### Task 1: CNI and Calico Overview
+- Research and read about Container Network Interface (CNI) and [Calico](https://docs.tigera.io/calico/latest/about/), a popular networking solution for Kubernetes.
 
-### Task 2: ResourceQuota
-- Explore [Kubernetes ResourceQuota](https://kubernetes.io/docs/concepts/policy/resource-quotas/) to learn how to set resource limits for namespaces.
-- Create a ResourceQuota for one of your namespaces, and observe how it impacts resource allocation.
+### Task 2: Setting Up Calico
+- If you have a Kubernetes cluster, try setting up Calico as your network plugin. Alternatively, use Minikube or another cluster for experimentation.
 
-### Task 3: Suggested Project
-- Implement namespaces and resource quotas for an application with distinct resource requirements. Ensure that resource limits are enforced.
+### Task 3: Exploring Advanced Networking
+- Explore advanced networking topics, such as network policies, security, and observability with Calico.
+
+### Task 4: Suggested Project
+- Implement network policies using Calico in your Kubernetes cluster to secure communication between pods.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation](https://kubernetes.io/docs/home/): Detailed information on Kubernetes namespaces and ResourceQuotas.
-- [Kubernetes- Namespace and Resource Quota in Hindi](https://youtu.be/OaZcXRJuOo8?si=DmZCW0LDqHGmEvFj)
-- [Kubernetes- Namespace and Resource Quota in English](https://youtu.be/K3jNo4z5Jx8?si=5uONC-HwKEqSMB4g)
+- [Calico Documentation](https://docs.tigera.io/calico/latest/about/): In-depth information on Calico and Kubernetes networking.
+- [Kubernetes Networking](https://youtu.be/vOo__3GqyxM?si=_r7Li9GWqTeGRHkg)
+- [Kubernetes- Networing(Calico) in English](https://www.youtube.com/watch?v=vOo__3GqyxM)
+- [Kubernetes- Networking CNI Glimpse in English](https://www.youtube.com/watch?v=l2BS_kuQxBA)
 
-Understanding namespaces and resource quotas helps you manage and isolate workloads effectively within a Kubernetes cluster. Tomorrow, we'll explore the use of labels and selectors.
+Understanding advanced networking is crucial for managing complex applications in Kubernetes. Tomorrow, we'll explore Kubernetes volumes and storage.
 
 [← Previous Day](../Day11/README.md) | [Next Day →](../Day13/README.md)
